@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\repos\\EmployeeCrud\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\views\\department\\getdepartmentsbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\views\\department\\getdepartmentsbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\views\\department\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\views\\department\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\language\\sharedresource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\language\\sharedresource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetDepartmentsById.cshtml",
+              "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
+              "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
+              "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
+              "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:39:04.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
+              "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
+              "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
+              "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:38:43.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SharedResource.resx",
+              "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Language\\SharedResource.resx",
+              "RelativeDocumentMoniker": "EmployeeCrud.PL\\Language\\SharedResource.resx",
+              "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Language\\SharedResource.resx",
+              "RelativeToolTip": "EmployeeCrud.PL\\Language\\SharedResource.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-04T17:38:35.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "EmployeeCrud.PL\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:37:01.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
