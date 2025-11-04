@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\repos\\EmployeeCrud\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|d:\\repos\\employeecrud\\employeecrud.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4B453353-B0F3-42F3-A900-BF2EDB6708D0}|EmployeeCrud.PL\\EmployeeCrud.PL.csproj|solutionrelative:employeecrud.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -74,36 +78,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "EmployeeCrud.PL\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T15:39:41.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SharedResource.resx",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Language\\SharedResource.resx",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Language\\SharedResource.resx",
               "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Language\\SharedResource.resx",
               "RelativeToolTip": "EmployeeCrud.PL\\Language\\SharedResource.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-04T11:05:31.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T11:05:31.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T10:39:49.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DepartmentRepo.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.DAL\\Repo\\Implementation\\DepartmentRepo.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.DAL\\Repo\\Implementation\\DepartmentRepo.cs",
@@ -111,12 +127,11 @@
               "RelativeToolTip": "EmployeeCrud.DAL\\Repo\\Implementation\\DepartmentRepo.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:30:46.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:30:46.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.BLL\\Service\\Implementation\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.BLL\\Service\\Implementation\\EmployeeService.cs",
@@ -124,12 +139,11 @@
               "RelativeToolTip": "EmployeeCrud.BLL\\Service\\Implementation\\EmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:22:36.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:22:36.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\Delete.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\Delete.cshtml",
@@ -137,12 +151,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:15:17.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:15:17.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\Index.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\Index.cshtml",
@@ -150,12 +163,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:02:03.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:02:03.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GetDepartmentsById.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
@@ -163,12 +175,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\GetDepartmentsById.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:00:56.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:00:56.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
@@ -176,12 +187,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Department\\Update.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:00:24.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T10:00:24.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Views\\Employee\\Update.cshtml",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Views\\Employee\\Update.cshtml",
@@ -189,12 +199,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Views\\Employee\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T12:36:28.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T12:36:28.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Controllers\\EmployeeController.cs",
@@ -202,12 +211,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAwGAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:13:13.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T12:13:13.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.PL\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.PL\\Controllers\\DepartmentController.cs",
@@ -215,12 +223,11 @@
               "RelativeToolTip": "EmployeeCrud.PL\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAD4v1cAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:12:40.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T12:12:40.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.BLL\\Service\\Implementation\\DepartmentService.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.BLL\\Service\\Implementation\\DepartmentService.cs",
@@ -228,12 +235,11 @@
               "RelativeToolTip": "EmployeeCrud.BLL\\Service\\Implementation\\DepartmentService.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAnwGoAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:38:29.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:38:29.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IDepartmentService.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.BLL\\Service\\Abstraction\\IDepartmentService.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.BLL\\Service\\Abstraction\\IDepartmentService.cs",
@@ -241,12 +247,11 @@
               "RelativeToolTip": "EmployeeCrud.BLL\\Service\\Abstraction\\IDepartmentService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADgvwoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:36:08.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:36:08.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.BLL\\Service\\Abstraction\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.BLL\\Service\\Abstraction\\IEmployeeService.cs",
@@ -254,12 +259,11 @@
               "RelativeToolTip": "EmployeeCrud.BLL\\Service\\Abstraction\\IEmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:26:01.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:26:01.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateDepartmentVm.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.BLL\\ModelVm\\Department\\UpdateDepartmentVm.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.BLL\\ModelVm\\Department\\UpdateDepartmentVm.cs",
@@ -267,12 +271,11 @@
               "RelativeToolTip": "EmployeeCrud.BLL\\ModelVm\\Department\\UpdateDepartmentVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:24:29.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T11:24:29.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\repos\\EmployeeCrud\\EmployeeCrud.DAL\\Entity\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeCrud.DAL\\Entity\\Employee.cs",

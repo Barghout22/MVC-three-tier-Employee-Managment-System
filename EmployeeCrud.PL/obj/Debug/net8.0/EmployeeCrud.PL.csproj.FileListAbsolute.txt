@@ -115,7 +115,6 @@ D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\EmployeeCrud.PL.csproj.Co
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\EmployeeCrud.PL.MvcApplicationPartsAssemblyInfo.cache
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\EmployeeCrud.PL.RazorAssemblyInfo.cache
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\EmployeeCrud.PL.RazorAssemblyInfo.cs
-D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\EmployeeCrud.PL.sourcelink.json
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\repos\EmployeeCrud\EmployeeCrud.PL\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

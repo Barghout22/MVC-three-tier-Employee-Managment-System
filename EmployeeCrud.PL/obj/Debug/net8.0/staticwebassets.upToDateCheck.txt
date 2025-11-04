@@ -1,12 +1,17 @@
+wwwroot\css\sb-admin-2.css
+wwwroot\css\sb-admin-2.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Files\379268eb-1926-4c84-a8ce-560b81b87013IMG_20240202_140619.jpg
+wwwroot\Files\78e2837f-fe8d-4fd3-809c-4350c69dcab720221022_183530.jpg
 wwwroot\Files\84e9e4ff-e6c2-4905-80d5-ec76f0bc60b9IMG_20240202_140625_edit_73423926467441.jpg
 wwwroot\Files\a12a4384-d8e3-43db-9cfc-2583c1b50ddeIMG_20240202_140619.jpg
 wwwroot\Files\a6e71ccc-82cb-495b-95f1-7a8ddf7901a8IMG_20240202_140619.jpg
 wwwroot\Files\c41c4f04-3dfe-451e-ae16-683a84677979IMG_20240202_140634.jpg
 wwwroot\Files\c645c240-bdd3-4fdf-a68d-a3da06840c9fIMG_20221006_172232.jpg
 wwwroot\Files\eb189157-242b-41cf-a338-f8be48e4ddacIMG_20240203_110232.jpg
+wwwroot\js\sb-admin-2.js
+wwwroot\js\sb-admin-2.min.js
 wwwroot\js\site.js
 wwwroot\js\validation-styling.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
