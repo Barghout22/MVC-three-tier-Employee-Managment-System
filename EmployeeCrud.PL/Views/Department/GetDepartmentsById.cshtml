@@ -1,0 +1,15 @@
+﻿@model GetDepartmntVm
+
+<div class="card w-75 mx-auto">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">@SharedLocalizer["Id" ]: @Model.Id</li>
+        <li class="list-group-item">{@SharedLocalizer["Area"]: @Model.Area</li>
+    </ul>
+    <div class="card-body">
+        <a asp-action="Index" asp-controller="Department" class="btn btn-dark w-100">@SharedLocalizer["GoToMainPage"]</a>
+    </div>
+</div>
+

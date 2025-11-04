@@ -1,0 +1,32 @@
+﻿@model CreateDepartmentVm
+
+<div class="card" dir="@SharedLocalizer["Direction"]">
+    <div class="card-body">
+        <form asp-action="Create" asp-controller="Department" >
+            @if (ViewBag.Error != null)
+            {
+                <p class="alert  alert-danger">@ViewBag.Error</p>
+            }
+            <div class="mx-auto form-text w-50 text-center"><h1>@SharedLocalizer["CreateDepartment"]</h1></div>
+            <div class="mb-3">
+
+                <label for="Name" class="form-label">@SharedLocalizer["Name"]</label>
+                <input asp-for="Name" type="text" class="form-control" id="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+            <div class="mb-3">
+                <label for="Area" class="form-label">@SharedLocalizer["Area"]</label>
+                <input asp-for="Area" type="string" class="form-control" id="Area">
+                <span asp-validation-for="Area" class="text-danger"></span>
+            </div>
+
+
+           
+                  <div class="mb-3 d-flex mx-auto">
+                    <button type="submit" class="btn btn-primary w-50">@SharedLocalizer["Submit"]</button>
+                <a asp-action="Index" asp-controller="Department" class="btn btn-danger w-50">@SharedLocalizer["Cancel"]</a>
+                </div>
+       </form>
+    </div>
+</div>

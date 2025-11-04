@@ -1,0 +1,16 @@
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.AssemblyInfoInputs.cache
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.AssemblyInfo.cs
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.csproj.CoreCompileInputs.cache
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.sourcelink.json
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.csproj.AssemblyReference.cache
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\bin\Debug\net8.0\EmployeeCrud.BLL.deps.json
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\bin\Debug\net8.0\EmployeeCrud.BLL.dll
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\bin\Debug\net8.0\EmployeeCrud.BLL.pdb
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\bin\Debug\net8.0\EmployeeCrud.DAL.dll
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\bin\Debug\net8.0\EmployeeCrud.DAL.pdb
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\Employee.3B920CD9.Up2Date
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.dll
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\refint\EmployeeCrud.BLL.dll
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\EmployeeCrud.BLL.pdb
+D:\repos\EmployeeCrud\EmployeeCrud.BLL\obj\Debug\net8.0\ref\EmployeeCrud.BLL.dll

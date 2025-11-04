@@ -1,0 +1,47 @@
+﻿@using EmployeeCrud.BLL.ModelVm.Employee
+@using EmployeeCrud.BLL.Response
+@model Response<List<GetEmployeeVm>>
+
+@if (Model.HasError)
+{
+    <p class=" alert-danger">@Model.ErrorMessage</p>
+}
+
+<div class="d-flex">
+    <a class="btn btn-outline-success fw-bold  my-2 w-50" asp-action="Create" asp-controller="Employee">@SharedLocalizer["CreateEmployee"]</a>
+    <a class="btn btn-outline-primary fw-bold  my-2 w-50" asp-action="Index" asp-controller="Department">@SharedLocalizer["DeptPage"]</a>
+
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @SharedLocalizer["Id"]
+            </th>
+            <th>@SharedLocalizer["Name"]</th>
+            <th>@SharedLocalizer["Salary"]</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in @Model.Result)
+        {
+            <tr>
+                <td>
+                    <a asp-action="GetEmployeesById" asp-controller="Employee" asp-route-Id="@employee.Id" class="text-dark">
+                        @employee.Id
+                    </a>
+                </td>
+
+
+                <td>@employee.Name</td>
+                <td>@employee.Salary</td>
+                <td class="d-flex">
+                    <a asp-action="Update" asp-controller="Employee" asp-route-Id="@employee.Id" class="btn btn-outline-warning w-50">@SharedLocalizer["Update"]</a>
+                    <a asp-action="Delete" asp-controller="Employee" asp-route-Id="@employee.Id" class="btn btn-outline-danger w-50">@SharedLocalizer["Delete"]</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

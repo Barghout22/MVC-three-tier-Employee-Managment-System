@@ -1,0 +1,16 @@
+﻿@model GetEmployeeVm
+
+<div class="card w-75 mx-auto">
+    <img src="~/Files/@Model.Image" class="card-img-top w-50 mx-auto rounded-circle" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">@SharedLocalizer["Id"]: @Model.Id</li>
+        <li class="list-group-item">@SharedLocalizer["Salary"]: @Model.Salary</li>
+    </ul>
+    <div class="card-body">
+        <a asp-action="Index" asp-controller="Employee" class="btn btn-dark w-100">@SharedLocalizer["GoToMainPage"]</a>
+    </div>
+</div>
+

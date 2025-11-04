@@ -1,0 +1,76 @@
+﻿@model UpdateEmployeeVm
+@{
+    @inject IDepartmentService dept
+    var departments = dept.GetActiveDepartment();
+}
+@if (ViewBag.error != null)
+{
+    <p class="alert alert-danger">@ViewBag.error</p>
+}
+<img src="~/Files/@Model.OldImage" class="card-img-top w-50 mx-auto rounded-circle" alt="...">
+<div class="card" dir="@SharedLocalizer["Direction"]">
+    <div class="card-body">
+        <form asp-action="Update" asp-controller="Employee" enctype="multipart/form-data">
+            <input hidden asp-for="Id" id="Id" />
+            <input hidden asp-for="OldImage" id="OldImage" />
+
+            <div class="mx-auto form-text w-50 text-center"><h1>@SharedLocalizer["UpdateEmployee"]</h1></div>
+            <div class="mb-3">
+
+                <label for="Name" class="form-label">@SharedLocalizer["Name"]</label>
+                <input asp-for="Name" type="text" class="form-control" id="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+            <div class="mb-3">
+                <label for="Age" class="form-label">@SharedLocalizer["Age"]</label>
+                <input asp-for="Age" type="number" class="form-control" id="Age">
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label for="Salary" class="form-label">@SharedLocalizer["Salary"]</label>
+                <input asp-for="Salary" type="number" class="form-control" id="Salary">
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Image" class="form-label">@SharedLocalizer["Image"]</label>
+                <input asp-for="Image" type="file" class="form-control" id="Image" placeholder="@Model.OldImage">
+            </div>
+            <div class="mb-3">
+                @if (departments.HasError)
+                {
+                    <p class="alert-danger"> @departments.ErrorMessage</p>
+                }
+                else
+                {
+
+                    <select asp-for="DeptId" class="form-select">
+                        <label>@SharedLocalizer["DepartmentId"]</label>
+                        <option selected>@SharedLocalizer["DepartmentId"]</option>
+                        @foreach (var item in departments.Result)
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+
+                    </select>
+
+                }
+
+
+            </div>
+
+            @if (!departments.HasError)
+            {
+                <div class="mb-3 d-flex mx-auto">
+                    <button type="submit" class="btn btn-primary w-50">@SharedLocalizer["Submit"]</button>
+                    <a asp-action="Index" asp-controller="Employee" class="btn btn-danger w-50">@SharedLocalizer["Cancel"]</a>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+

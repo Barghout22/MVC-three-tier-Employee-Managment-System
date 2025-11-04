@@ -1,0 +1,44 @@
+﻿
+@model Response<List<GetDepartmntVm>>
+@if (Model.HasError)
+{
+    <p class=" alert-danger">@Model.ErrorMessage</p>
+}
+<div class="d-flex">
+    <a class="btn btn-outline-success fw-bold  my-2 w-50" asp-action="Index" asp-controller="Employee">@SharedLocalizer["EmpPage"]</a>
+    <a class="btn btn-outline-primary fw-bold  my-2 w-50" asp-action="Create" asp-controller="Department">@SharedLocalizer["CreateDepartment"]</a>
+
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @SharedLocalizer["Id"]
+            </th>
+            <th>@SharedLocalizer["Name"]</th>
+            <th>@SharedLocalizer["Area"]</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in @Model.Result)
+        {
+            <tr>
+                <td>
+                    <a asp-action="GetDepartmentsById" asp-controller="Department" asp-route-Id="@department.Id" class="text-dark">
+                        @department.Id
+                    </a>
+                </td>
+
+
+                <td>@department.Name</td>
+                <td>@department.Area</td>
+                <td class="d-flex">
+                    <a asp-action="Update" asp-controller="Department" asp-route-Id="@department.Id" class="btn btn-outline-warning w-50">@SharedLocalizer["Update"]</a>
+                    <a asp-action="Delete" asp-controller="Department" asp-route-Id="@department.Id" class="btn btn-outline-danger w-50">@SharedLocalizer["Delete"]</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
